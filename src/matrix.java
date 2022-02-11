@@ -22,6 +22,10 @@ public class matrix {
         return found;
     }
 
+    // this code will be O(n) because it does not require multiple loops.
+    // in the worst case scenario, it will have to traverse one entire row and one entire column
+    // but it does not require more than O(n)
+
 
 
     public static void main(String [] args){
